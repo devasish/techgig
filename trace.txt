@@ -1,0 +1,59 @@
+ --- modulename: binarytree, funcname: <module>
+binarytree.py(1): class Node:
+ --- modulename: binarytree, funcname: Node
+binarytree.py(1): class Node:
+binarytree.py(2):     def __init__(self, key):
+binarytree.py(8): def height(root):
+binarytree.py(25): def main():
+binarytree.py(38): if __name__ == '__main__': main()
+ --- modulename: binarytree, funcname: main
+binarytree.py(26):     root = Node(1)
+ --- modulename: binarytree, funcname: __init__
+binarytree.py(3):         self.data = key
+binarytree.py(4):         self.left = None
+binarytree.py(5):         self.right = None
+binarytree.py(27):     root.left = Node(5)
+ --- modulename: binarytree, funcname: __init__
+binarytree.py(3):         self.data = key
+binarytree.py(4):         self.left = None
+binarytree.py(5):         self.right = None
+binarytree.py(31):     root.right = Node(3)
+ --- modulename: binarytree, funcname: __init__
+binarytree.py(3):         self.data = key
+binarytree.py(4):         self.left = None
+binarytree.py(5):         self.right = None
+binarytree.py(34):     h = height(root)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(12):         lheight = height(root.left)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(12):         lheight = height(root.left)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(10):         return 0
+binarytree.py(13):         rheight = height(root.right)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(10):         return 0
+binarytree.py(15):         if lheight > rheight:
+binarytree.py(18):             return rheight + 1
+binarytree.py(13):         rheight = height(root.right)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(12):         lheight = height(root.left)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(10):         return 0
+binarytree.py(13):         rheight = height(root.right)
+ --- modulename: binarytree, funcname: height
+binarytree.py(9):     if root == None:
+binarytree.py(10):         return 0
+binarytree.py(15):         if lheight > rheight:
+binarytree.py(18):             return rheight + 1
+binarytree.py(15):         if lheight > rheight:
+binarytree.py(18):             return rheight + 1
+binarytree.py(35):     print("height  = %s" % h)
+height  = 2
+ --- modulename: trace, funcname: _unsettrace
+trace.py(77):         sys.settrace(None)
